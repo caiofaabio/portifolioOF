@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { SKILLS } from "../arrays";
+import { useTranslation } from "react-i18next";
 
 interface SkillsProps {
   hoveredSkill: string | null;
@@ -7,13 +8,14 @@ interface SkillsProps {
 }
 
 export default function Skills({ hoveredSkill, setHoveredSkill }: SkillsProps) {
+  const { t } = useTranslation();
   return (
     <motion.section
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       className="mb-16"
     >
-      <h3 className="text-3xl font-bold mb-8 text-center">Skills</h3>
+      <h3 className="text-3xl font-bold mb-8 text-center">{t("skills")}</h3>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 ">
         {SKILLS.map((skill, index) => (
           <motion.div

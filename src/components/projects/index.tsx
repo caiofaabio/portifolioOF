@@ -1,10 +1,14 @@
 import { motion } from "framer-motion";
 import { PROJECTS } from "../arrays";
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
+  const { t } = useTranslation();
   return (
     <section className="mb-16">
-      <h3 className="text-3xl font-bold mb-8 text-center">Featured Projects</h3>
+      <h3 className="text-3xl font-bold mb-8 text-center">
+        {t("featuredProjects")}
+      </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {PROJECTS.map((project, index) => (
           <motion.div
@@ -28,14 +32,16 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-white text-gray-900 rounded-full font-medium hover:bg-gray-100 transition-colors"
                   >
-                    Visit Project
+                    {t("visitProjects")}
                   </a>
                 </div>
               </div>
               <div className="flex-1 flex flex-col p-6">
-                <h4 className="text-xl font-semibold mb-2">{project.title}</h4>
-                <p className="text-gray-600 mb-auto dark:text-gray-400">
-                  {project.description}
+                <h4 className="text-xl font-semibold mb-2">
+                  {t(project.title)}
+                </h4>
+                <p className="text-gray-600 mb-2 dark:text-gray-400">
+                  {t(project.description)}
                 </p>
                 <p className="text-sm mt-auto font-medium text-gray-500 dark:text-gray-500">
                   {project.tech}

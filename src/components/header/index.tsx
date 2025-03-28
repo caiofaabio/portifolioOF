@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Moon, Sun } from "lucide-react";
+import { LanguageSwitch } from "../languageSwitch";
 
 interface HeaderProps {
   theme: string;
@@ -17,12 +18,16 @@ export default function Header({ theme, setTheme }: HeaderProps) {
         >
           &lt;Caio Fabio/&gt;
         </motion.h1>
-        <button
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
-        >
-          {theme === "dark" ? <Sun size={24} /> : <Moon size={24} />}
-        </button>
+
+        <div>
+          <LanguageSwitch flag />
+          <button
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+          >
+            {theme === "dark" ? <Sun size={24} /> : <Moon size={24} />}
+          </button>
+        </div>
       </div>
     </header>
   );

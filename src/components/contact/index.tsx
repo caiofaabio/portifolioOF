@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Github, Instagram, Linkedin, Mail, Phone } from "lucide-react";
 import { EMAIL, GITHUB, INSTAGRAM, LINKEDIN, PHONE } from "../constants";
+import { useTranslation } from "react-i18next";
 
 interface ContactProps {
   copiedEmail: boolean;
@@ -13,16 +14,16 @@ export default function Contact({
   copiedPhone,
   handleCopy,
 }: ContactProps) {
+  const { t } = useTranslation();
   return (
     <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       className="text-center bg-gray-100 dark:bg-gray-800 rounded-lg p-8 shadow-lg"
     >
-      <h3 className="text-3xl font-bold mb-6">Let's Connect</h3>
+      <h3 className="text-3xl font-bold mb-6">{t("letsConnect")}</h3>
       <p className="text-lg mb-8 text-gray-600 dark:text-gray-400">
-        I'm always open to discussing new projects, creative ideas, or
-        opportunities to be part of your visions.
+        {t("letsConnectDescription")}
       </p>
       <div className="flex flex-col gap-6 max-w-lg mx-auto mb-8">
         <button
@@ -34,7 +35,7 @@ export default function Contact({
             <span>{EMAIL}</span>
           </div>
           <span className="text-sm text-gray-500 dark:text-gray-400">
-            {copiedEmail ? "Copied!" : "Click to copy"}
+            {copiedEmail ? `${t("copied")}` : `${t("clipCopy")}`}
           </span>
         </button>
         <button
@@ -46,7 +47,7 @@ export default function Contact({
             <span>{PHONE}</span>
           </div>
           <span className="text-sm text-gray-500 dark:text-gray-400">
-            {copiedPhone ? "Copied!" : "Click to copy"}
+            {copiedPhone ? `${t("copied")}` : `${t("clipCopy")}`}
           </span>
         </button>
       </div>

@@ -79,27 +79,24 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
-    title: "MegaXP Experience",
+    title: "projectOne",
     image: "/megaXP.png",
     link: "https://megaxp.netlify.app/",
-    description:
-      "Ainda em fase de construção. O programa de fidelidade da MegaX em que a cada compra realizada com seu cartão seja débito, crédito ou pré-pago, você ganha 1 ponto, independente do valor.",
+    description: "projectOneDescription",
     tech: "html, tailwindcss, javascript, indexedDB, web3js, Redux",
   },
   {
-    title: "Bazar da Bella",
+    title: "projectTwo",
     image: "/bazar.png",
     link: "https://bazar-online-da-bella.netlify.app/",
-    description:
-      "Um bazar online com produtos gerais de casa, roupas, acessórios e muito mais.",
+    description: "projectTwoDescription",
     tech: "react, react router rom, axios, vite, tailwindcss, typescript",
   },
   {
-    title: "Cursed Stone",
+    title: "projectTree",
     image: "/cursed.png",
     link: "https://snazzy-puffpuff-fb17af.netlify.app/",
-    description:
-      "Land page do Cursed Stone um jogo MMORPG web3, jogo ainda em fase de construção.",
+    description: "projectTreeDescription",
     tech: "react, gsap, bootstrap, vite",
   },
 ];

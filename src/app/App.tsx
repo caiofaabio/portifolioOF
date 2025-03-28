@@ -9,8 +9,10 @@ import Contact from "../components/contact";
 import Header from "../components/header";
 import Main from "../components/main";
 import Loading from "../components/loading";
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const { t } = useTranslation();
   const [theme, setTheme] = useState("dark");
   const [isLoading, setIsLoading] = useState(true);
   const [copiedEmail, setCopiedEmail] = useState(false);
@@ -27,7 +29,7 @@ function App() {
     navigator.clipboard.writeText(text);
     if (type === "email") {
       setCopiedEmail(true);
-      toast("Email copied to clipboard!", {
+      toast(`${t("copyEmail")}`, {
         type: "success",
         style: {
           background: "#1f2937 ",
@@ -38,7 +40,7 @@ function App() {
       setTimeout(() => setCopiedEmail(false), 2000);
     } else {
       setCopiedPhone(true);
-      toast("Phone number copied to clipboard!", {
+      toast(`${t("copyPhone")}`, {
         type: "success",
         style: {
           background: "#1f2937 ",

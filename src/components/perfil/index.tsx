@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export default function Perfil() {
+  const { t } = useTranslation();
+
   return (
     <motion.section
       initial={{ opacity: 0, y: 20 }}
@@ -8,12 +11,9 @@ export default function Perfil() {
       className="text-center mb-16 flex flex-col md:flex-row items-center justify-between gap-12"
     >
       <div className="md:w-1/2 md:text-left">
-        <h2 className="text-4xl font-bold mb-6">Front-end Developer</h2>
+        <h2 className="text-4xl font-bold mb-6"> {t("titleMain")}</h2>
         <p className="text-xl text-gray-600 dark:text-gray-400">
-          Hi, I'm Caio Fabio, a Front-end Developer specialized in transforming
-          creative ideas into responsive and intuitive digital experiences. With
-          a focus on modern technologies and best practices, my goal is to
-          deliver solutions that delight users and exceed expectations.
+          {t("titleSub")}
         </p>
       </div>
       <motion.div
