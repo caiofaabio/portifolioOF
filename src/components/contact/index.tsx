@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { Github, Instagram, Linkedin, Mail, Phone } from "lucide-react";
-import { EMAIL, GITHUB, INSTAGRAM, LINKEDIN, PHONE } from "../constants";
+import { Instagram, Linkedin, Mail, Phone } from "lucide-react";
+import { EMAIL, INSTAGRAM, LINKEDIN, PHONE } from "../constants";
 import { useTranslation } from "react-i18next";
 
 interface ContactProps {
@@ -52,7 +52,7 @@ export default function Contact({
         </button>
       </div>
       <div className="flex flex-col md:flex-row justify-center gap-6">
-        <a
+        {/* <a
           href={GITHUB}
           target="_blank"
           rel="noopener noreferrer"
@@ -60,7 +60,7 @@ export default function Contact({
         >
           <Github size={24} />
           <span>GitHub</span>
-        </a>
+        </a> */}
         <a
           href={LINKEDIN}
           target="_blank"

@@ -42,14 +42,14 @@ export function LanguageSwitch({ flag }: LanguageProps) {
       </div>
 
       {open && (
-        <div className="absolute mt-1 mx-2 w-40 rounded-lg bg-gray-600 dark:bg-gray-800 shadow-lg z-10">
+        <div className="absolute right-0 mt-1 min-w-[200px] rounded-lg bg-gray-600 dark:bg-gray-800 shadow-lg z-10 border border-gray-500 dark:border-gray-700">
           <div className="py-1">
-            <div className="px-4 py-2 text-sm font-semibold text-white">
+            <div className="px-4 py-2 text-sm font-semibold text-white whitespace-nowrap">
               {t("language")}
             </div>
-            <div className="border-t border-gray-600 mb-2"></div>
+            <div className="border-t border-gray-500 dark:border-gray-600 mb-2"></div>
             <div
-              className="cursor-pointer px-4 py-2 hover:bg-gray-600 flex gap-2 items-center"
+              className="cursor-pointer px-4 py-2 hover:bg-gray-500 dark:hover:bg-gray-700 flex gap-2 items-center transition-colors"
               onClick={() => handleLanguageChange("us")}
             >
               <CircleFlag countryCode="us" height={24} width={24} />
@@ -58,21 +58,21 @@ export function LanguageSwitch({ flag }: LanguageProps) {
               </span>
             </div>
             <div
-              className="cursor-pointer px-4 py-2 hover:bg-gray-600 flex gap-2 items-center"
+              className="cursor-pointer px-4 py-2 hover:bg-gray-500 dark:hover:bg-gray-700 flex gap-2 items-center transition-colors"
               onClick={() => handleLanguageChange("br")}
             >
               <CircleFlag countryCode="br" height={24} width={24} />
               <span className="text-gray-200 dark:text-white text-sm">
-                Portuguesse
+                Português
               </span>
             </div>
             <div
-              className="cursor-pointer px-4 py-2 hover:bg-gray-600 flex gap-2 items-center"
+              className="cursor-pointer px-4 py-2 hover:bg-gray-500 dark:hover:bg-gray-700 flex gap-2 items-center transition-colors"
               onClick={() => handleLanguageChange("es")}
             >
               <CircleFlag countryCode="es" height={24} width={24} />
               <span className="text-gray-200 dark:text-white text-sm">
-                Espanish
+                Español
               </span>
             </div>
           </div>
