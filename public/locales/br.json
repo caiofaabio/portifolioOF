@@ -6,10 +6,6 @@
   "skills": "Habilidades",
   "visitProjects": "Visitar Projeto",
   "featuredProjects": "Últimos Projetos",
-  "projectOne": "Zion JS",
-  "projectOneDescription": "O Controle de Pagamento é um webapp desenvolvido para a Zion JS acompanhar e organizar os pagamentos recebidos pelos serviços realizados para outras empresas. A plataforma permite registrar e visualizar os ganhos, facilitando o controle financeiro semanal e o acompanhamento dos valores recebidos por cada trabalho realizado. O sistema utiliza inputs organizados, onde cada campo registra uma informação específica — como data do serviço, empresa contratante, valor recebido e observações — permitindo um controle financeiro mais claro e estruturado. Além disso, o webapp possibilita compartilhar o histórico de pagamentos pelo WhatsApp, trazendo mais transparência e organização na gestão financeira das operações.",
-  "projectTwo": "Bazar da Bella",
-  "projectTwoDescription": "O Bazar Online da Bella é uma plataforma web criada para uma empresa no Brasil com o objetivo de vender produtos usados em diversos segmentos. O site funciona como um bazar online, onde é possível anunciar e apresentar itens como roupas, acessórios e outros objetos de segunda mão de forma organizada. A proposta do projeto é facilitar a venda de produtos usados pela internet, permitindo que diferentes tipos de itens sejam exibidos em um único lugar, ajudando a alcançar mais compradores e tornando o processo de venda mais simples e acessível.",
   "projectTree": "Painel Admin do CleanOS",
   "projectTreeDescription": "O painel administrativo do CleanOS é o centro de controle da operação. Nele, supervisores e gestores acompanham em tempo real o status dos atendimentos, organizam rotas diárias, monitoram o desempenho da equipe e registram pagamentos. Com uma visão clara de cada serviço, incluindo fotos obrigatórias, horários e histórico de atividades, o painel permite tomar decisões rápidas, reduzir erros operacionais e manter toda a operação de limpeza organizada em um único lugar.",
   "projectCleanOS": "CleanOS",
@@ -20,5 +16,13 @@
   "copyPhone": "Telefone copiado para a área de transferência!",
   "clipCopy": "Clique para copiar",
   "copied": "Copiado",
-  "language": "Escolha seu idioma"
+  "language": "Escolha seu idioma",
+  "projectZealPro": "Zeal Pro",
+  "projectZealProDescription": "Zeal Pro é a primeira IA cristã do Brasil, desenvolvida para pastores, líderes e ministérios. A plataforma reúne 8 ferramentas de inteligência artificial treinadas na Palavra: gerador de pregações, artes bíblicas, devocional, estudo bíblico, chat bíblico e mais. Com mais de 2.400 usuários ativos e 39 mil artes geradas, o Zeal Pro transforma a preparação ministerial — da mensagem à publicação — em uma única plataforma.",
+  "projectApura": "Apura BR",
+  "projectApuraDescription": "Apura BR é um veículo brasileiro de inteligência preditiva que utiliza modelos probabilísticos atualizados em tempo real. A plataforma cobre a Copa do Mundo 2026 e a Eleição Presidencial 2026, oferecendo simulações Monte Carlo, análises de probabilidade de vitória e cobertura minuto a minuto dos eventos. O projeto combina jornalismo de dados com tecnologia para entregar informação precisa e atualizada ao público brasileiro.",
+  "projectZionCleaning": "Zion Cleaning",
+  "projectZionCleaningDescription": "Site institucional desenvolvido para a Zion Cleaning, empresa de limpeza profissional especializada em casas de temporada e imóveis residenciais. A plataforma apresenta os serviços oferecidos — limpeza de entrada e saída, limpeza profunda, residencial e comercial — com galeria de fotos, sistema de agendamento e suporte multilíngue. O site foi construído para gerar leads e facilitar o contato de novos clientes.",
+  "projectJireh": "Jireh Specialized Service",
+  "projectJirehDescription": "Jireh Specialized Service é um site de serviços de limpeza e manutenção residencial voltado para o mercado americano. A plataforma destaca serviços como limpeza de Airbnb, limpeza de entrada e saída, limpeza de carpetes e manutenção geral. Com formulário de orçamento rápido integrado, o site foi desenvolvido para converter visitantes em clientes de forma direta e eficiente."
 }

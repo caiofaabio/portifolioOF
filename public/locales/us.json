@@ -6,10 +6,6 @@
   "skills": "Skills",
   "visitProjects": "Visit Project",
   "featuredProjects": "Latest Projects",
-  "projectOne": "Zion JS",
-  "projectOneDescription": "Payment Control is a web application developed for Zion JS to track and organize payments received for services rendered to other companies. The platform allows users to record and view earnings, thereby facilitating weekly financial oversight and the monitoring of amounts received for each completed project. The system utilizes organized input fields—where each field captures specific information such as the service date, client company, amount received, and notes—enabling clearer and more structured financial management. Furthermore, the web app enables users to share their payment history via WhatsApp, fostering greater transparency and organization in the financial management of operations.",
-  "projectTwo": "Bella's Bazaar",
-  "projectTwoDescription": "Bazar Online da Bella is a web platform created for a company in Brazil with the aim of selling used products across various segments. The site works as an online bazaar where users can list and display items such as clothing, accessories, and other second-hand goods in an organized way. The project aims to make selling used products online easier, allowing different types of items to be showcased in one place, helping to reach more buyers and making the selling process simpler and more accessible.",
   "projectTree": "CleanOS Admin Panel",
   "projectTreeDescription": "The CleanOS administrative panel is the control center of the operation. In it, supervisors and managers monitor the status of services in real time, organize daily routes, monitor team performance, and record payments. With a clear view of each service, including mandatory photos, schedules, and activity history, the panel enables quick decisions, reduces operational errors, and keeps the entire cleaning operation organized in one place.",
   "projectCleanOS": "CleanOS",
@@ -20,5 +16,13 @@
   "copyPhone": "Phone copied to clipboard!",
   "clipCopy": "Click to copy",
   "copied": "Copied",
-  "language": "Choose your language"
+  "language": "Choose your language",
+  "projectZealPro": "Zeal Pro",
+  "projectZealProDescription": "Zeal Pro is Brazil's first Christian AI platform, built for pastors, leaders, and ministries. It brings together 8 AI tools trained on Scripture: sermon generator, biblical art, devotional, Bible study, biblical chat, and more. With over 2,400 active users and 39,000 pieces of art generated, Zeal Pro transforms ministry preparation — from message to publication — in a single platform.",
+  "projectApura": "Apura BR",
+  "projectApuraDescription": "Apura BR is a Brazilian predictive intelligence outlet that uses real-time probabilistic models. The platform covers the 2026 FIFA World Cup and the 2026 Presidential Election, offering Monte Carlo simulations, win probability analysis, and minute-by-minute coverage. The project combines data journalism with technology to deliver accurate, up-to-date information to the Brazilian public.",
+  "projectZionCleaning": "Zion Cleaning",
+  "projectZionCleaningDescription": "Institutional website developed for Zion Cleaning, a professional cleaning company specializing in vacation homes and residential properties. The platform showcases services offered — move-in/out cleaning, deep cleaning, residential and commercial — with a photo gallery, booking system, and multilingual support. The site was built to generate leads and make it easy for new clients to get in touch.",
+  "projectJireh": "Jireh Specialized Service",
+  "projectJirehDescription": "Jireh Specialized Service is a cleaning and home maintenance website targeting the American market. The platform highlights services such as Airbnb cleaning, move-in/out cleaning, carpet cleaning, and general maintenance. With an integrated fast-estimate form, the site was designed to convert visitors into clients in a direct and efficient way."
 }

@@ -6,10 +6,6 @@
   "skills": "Habilidades",
   "visitProjects": "Visitar Proyecto",
   "featuredProjects": "Últimos Proyectos",
-  "projectOne": "Zion JS",
-  "projectOneDescription": "Payment Control es una aplicación web desarrollada para Zion JS que permite rastrear y organizar los pagos recibidos por servicios prestados a otras empresas. La plataforma permite a los usuarios registrar y visualizar sus ingresos, facilitando el control financiero semanal y el seguimiento de los importes recibidos por cada trabajo realizado. El sistema utiliza campos organizados, donde cada campo registra información específica (como la fecha del servicio, la empresa contratante, el importe recibido y notas), lo que permite un control financiero más claro y estructurado. Además, la aplicación web permite compartir el historial de pagos a través de WhatsApp, lo que aporta mayor transparencia y organización a la gestión financiera de las operaciones.",
-  "projectTwo": "Bazar de Bella",
-  "projectTwoDescription": "El Bazar Online de la Bella es una plataforma web creada para una empresa en Brasil con el objetivo de vender productos usados en diversos segmentos. El sitio funciona como un bazar en línea donde es posible anunciar y presentar artículos como ropa, accesorios y otros objetos de segunda mano de forma organizada. La propuesta del proyecto es facilitar la venta de productos usados por internet, permitiendo que diferentes tipos de artículos se exhiban en un solo lugar, ayudando a alcanzar más compradores y haciendo el proceso de venta más simple y accesible.",
   "projectTree": "Panel Admin de CleanOS",
   "projectTreeDescription": "El panel administrativo de CleanOS es el centro de control de la operación. En él, supervisores y gestores acompañan en tiempo real el estado de los atendimientos, organizan rutas diarias, monitorean el desempeño del equipo y registran pagos. Con una visión clara de cada servicio, incluyendo fotos obligatorias, horarios e historial de actividades, el panel permite tomar decisiones rápidas, reducir errores operativos y mantener toda la operación de limpieza organizada en un solo lugar.",
   "projectCleanOS": "CleanOS",
@@ -20,5 +16,13 @@
   "copyPhone": "¡Teléfono copiado al portapapeles!",
   "clipCopy": "Haz clic para copiar",
   "copied": "Copiado",
-  "language": "Elige tu idioma"
+  "language": "Elige tu idioma",
+  "projectZealPro": "Zeal Pro",
+  "projectZealProDescription": "Zeal Pro es la primera IA cristiana de Brasil, desarrollada para pastores, líderes y ministerios. La plataforma reúne 8 herramientas de inteligencia artificial entrenadas en la Palabra: generador de sermones, artes bíblicas, devocional, estudio bíblico, chat bíblico y más. Con más de 2.400 usuarios activos y 39 mil artes generadas, Zeal Pro transforma la preparación ministerial — del mensaje a la publicación — en una sola plataforma.",
+  "projectApura": "Apura BR",
+  "projectApuraDescription": "Apura BR es un medio brasileño de inteligencia predictiva que utiliza modelos probabilísticos actualizados en tiempo real. La plataforma cubre la Copa del Mundo 2026 y las Elecciones Presidenciales 2026, ofreciendo simulaciones Monte Carlo, análisis de probabilidad de victoria y cobertura minuto a minuto. El proyecto combina periodismo de datos con tecnología para entregar información precisa y actualizada al público brasileño.",
+  "projectZionCleaning": "Zion Cleaning",
+  "projectZionCleaningDescription": "Sitio institucional desarrollado para Zion Cleaning, empresa de limpieza profesional especializada en casas de vacaciones e inmuebles residenciales. La plataforma presenta los servicios ofrecidos — limpieza de entrada y salida, limpieza profunda, residencial y comercial — con galería de fotos, sistema de reservas y soporte multilingüe. El sitio fue construido para generar leads y facilitar el contacto de nuevos clientes.",
+  "projectJireh": "Jireh Specialized Service",
+  "projectJirehDescription": "Jireh Specialized Service es un sitio de servicios de limpieza y mantenimiento residencial orientado al mercado estadounidense. La plataforma destaca servicios como limpieza de Airbnb, limpieza de entrada y salida, limpieza de alfombras y mantenimiento general. Con un formulario de presupuesto rápido integrado, el sitio fue desarrollado para convertir visitantes en clientes de forma directa y eficiente."
 }
