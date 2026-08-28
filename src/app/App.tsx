@@ -9,6 +9,7 @@ import Contact from "../components/contact";
 import Header from "../components/header";
 import Main from "../components/main";
 import Loading from "../components/loading";
+import Footer from "../components/footer";
 import { useTranslation } from "react-i18next";
 
 function App() {
@@ -82,6 +83,7 @@ function App() {
           handleCopy={handleCopy}
         />
       </Main>
+      <Footer />
     </div>
   );
 }

@@ -14,6 +14,9 @@ export default function ABout() {
         <p className="text-lg leading-relaxed font-[cursive] text-gray-700 dark:text-gray-300 whitespace-pre-line">
           {t("aboutContent")}
         </p>
+        <p className="mt-6 border-t border-gray-200 pt-6 text-base leading-relaxed text-gray-600 dark:border-gray-700 dark:text-gray-400">
+          {t("businessAffiliation")}
+        </p>
       </div>
     </motion.section>
   );
